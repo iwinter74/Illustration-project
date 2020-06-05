@@ -1,0 +1,158 @@
+body{
+    margin:0
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+}
+p{
+    font-family: 'Merriweather', serif; 
+    font-size: 1em
+}
+header, footer{
+    font-family: 'Merriweather', serif; 
+}
+header ul{
+    text-align: right;
+}
+header ul li{
+    display: inline;
+    list-style: none;
+    padding-right: 1%
+}
+header a{
+    text-decoration: none;
+    color: black
+}
+#why{
+    margin-bottom: 5em
+}
+#why article{
+    margin: 2em;
+    height: 40%
+}
+#why article h1{
+    width: 60%;
+    padding-top: 1em
+}
+#why article p{
+    width: 60%
+}
+#why article:nth-of-type(1) {
+    background: url(../img/illustration1.gif) right/contain no-repeat;
+}
+#why ul{
+    margin-top: 2em;
+    margin-left: -3%
+}
+#why ul li{
+    list-style: none;
+    display: inline;
+}
+#why li:nth-of-type(1) a {
+    color: white;
+    padding: 1em;
+    background-color: black;
+    text-decoration: none;
+}
+#why li:nth-of-type(2) a {
+    color:black;
+    padding: 1em;
+    background-color:white;
+    border: 1px solid grey;
+    text-decoration: none;
+}
+#why article:nth-of-type(2) {
+    background: url(../img/illustration2.png) left/contain no-repeat;
+    padding-left: 60%;
+}
+#why article:nth-of-type(3) {
+    background: url(../img/illustration3.png) right/contain no-repeat;
+}
+#illustration, #examples, #membership, footer{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+#illustration img {
+    width: 25%;
+    padding: 3%
+}
+#examples img{
+    width: 40%;
+    padding: 3%
+}
+#membership div{
+    width: 20%;
+    padding: 2em;
+    background: #F5FBFE;
+    margin-left: 40%
+}
+#membership h2, #membership h3, #membership h4{
+    font-family: 'Lato', sans-serif;
+}
+#membership h2{
+    font-size: 1em;
+}
+#membership h3{
+    font-size: 3em;
+}
+#membership h4{
+    font-size: 1em;
+}
+#membership ul{
+    margin-bottom: 3em;
+    margin-left: -2em;
+}
+#membership li{
+    font-family: 'Merriweather', serif;
+    list-style: none;
+}
+#membership a{
+    text-decoration: none;
+    padding: 1em 2em;
+    background: #24bff2;
+    color: white;
+}
+footer li{
+    list-style: none;
+    color: grey;
+}
+footer nav ul li {
+    display: inline;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer #fb::before {
+    content: ".";
+    color: darkblue;
+    font-size: 2em
+}
+footer #ig::before {
+    content: ".";
+    color: orange;
+    font-size: 2em
+}
+footer #tw::before {
+    content: ".";
+    color: blue;
+    font-size: 2em
+}
+footer #yt::before {
+    content: ".";
+    color:red;
+    font-size: 2em
+}
+
+
+
+
+
+/* Font: Merriweather, Lato
+Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b */
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif; */
